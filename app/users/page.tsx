@@ -1,9 +1,19 @@
-import React from 'react'
+import { link } from "fs";
+import React from "react";
+import Userslist from "./new/Userslist";
 
-const userspage = () => {
+
+const userspage = async () => {
+  
+
   return (
-    <div>userspage</div>
-  )
-}
+    <>
+      <h1>Users</h1>
+      <Userslist/>
 
-export default userspage
+    </>
+  )
+
+};
+
+export default userspage;
